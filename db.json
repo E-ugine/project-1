@@ -1,0 +1,40 @@
+{
+  "sites": [
+    {
+      "id": "1",
+      "name": "Serengeti National Park",
+      "location": "Tanzania",
+      "image": "",
+      "description": "Abundance of Big 5, especially the big cats, opportunities to view wildebeest migration aka migration safari. "
+    },
+    {
+      "id": "2",
+      "name": "Okavango Delta",
+      "location": "Botswana",
+      "country": "",
+      "image": "",
+      "description": "A variety of tours such as canoe, boat, and classic safaris, waterway paradise, and presence of big 5"
+    },
+    {
+      "id": "3",
+      "name": "Oldonyo Sapuk",
+      "location": "Kenya",  
+      "image": "",
+      "description": "Embark on a private hiking tour to Oldonyo Sapuk from Nairobi. Discover the rich historical significance of this mountain and enjoy a thrilling adventure. "
+    },
+    {
+      "id": "4",
+      "name": "Victoria Falls",
+      "location": "Zambia",
+      "image": "",
+      "description": ""
+    },
+    {
+      "id": "5",
+      "name": "Long Branch Falls",
+      "location": "Malawi",
+      "image": "",
+      "description": ""
+    }
+  ]
+}
