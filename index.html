@@ -12,7 +12,6 @@
         <div class="nav-links">
             <a href="#">Home</a>
             <a href="#">Explore</a>
-            <a href="#">Blog</a>
             <a href="#">About</a>
         </div>
         
@@ -20,13 +19,14 @@
 
     <div class="hero">
         <div class="hero-content">
-            <h1>Let's Tour Africa</h1>
-            <p>Adventorous</p>
+            <h1>Let's Explore!</h1>
+            <p>"The life of your dreams"</p>
             <button class="start-btn">Start now</button>
         </div>
-        <div class="hero-carousel">
-            <img src="image1.jpg" alt="Image 1">
-            <img src="image2.jpg" alt="Image 2">
+        <div class="hero-images">
+            <img src="./images/Serengeti.png" alt="Image 1">
+            <img src="./images/OkavangoDelta.png" alt="Image 2">
+            <img src="./images/Kirstenbosch.png" alt="Image 3">
            
         </div>
     </div>
@@ -41,35 +41,52 @@
         <h2>Top Destination</h2>
         <div class="grid">
             <div>
-                <img src="destination1.jpg" alt="Serengeti Park">
-  
+                <img src="./images/Serengeti.png" alt="Serengeti Park">
+                <span>Serengeti</span>
+
             </div>
             <div>
-                <img src="destination2.jpg" alt="Victoria Falls">
+                <img src="./images/VictoriaFalls.png" alt="Victoria Falls">
+                <span>VictoriaFalls</span>
             </div>
             <div>
-                <img src="destination3.jpg" alt="Oldonyo Sapuk">              
+                <img src="./images/OldonyoSapuk.png" alt="Oldonyo Sapuk">  
+                <span>Oldonyo Sapuk</span>            
             </div>
             <div>
-                <img src="destination4.jpg" alt="Okavango Delta">         
+                <img src="./images/OkavangoDelta.png" alt="Okavango Delta"> 
+                <span>Okavango Delta</span>        
+            </div> 
+            <div>
+                <img src="./images/LongBranchFalls.png" alt="Okavango Delta"> 
+                <span>Long Branch Falls</span>        
+            </div> 
+            <div>
+                <img src="./images/1000Hills.png" alt="ValleyOf1000Hills"> 
+                <span>Valley Of 1000 Hills</span>        
             </div>        
         </div>
     </div>
 
 
 
-    <div class="useful-info">
+    <div class="More-info">
         <h2>More Information</h2>
     </div>
 
     <div class="comments-section">
         <h2>Comments</h2>
         <div class="comments-list"></div>
-        <div class="add-comment">
+        <div class="add-delete-comment">
+            <select id="destination-select">
+                <option value="">Select Destination</option>
+            </select>
             <input type="text" id="comment-input" placeholder="Add a comment...">
             <button id="add-comment-button">Add Comment</button>
+            <button id="delete-comment-button">Delete</button>
         </div>
     </div>
+    
     <script src="script.js"></script>
 </body>
 </html>

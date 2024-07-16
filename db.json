@@ -1,40 +1,63 @@
 {
-  "sites": [
+  "destination": [
     {
       "id": "1",
       "name": "Serengeti National Park",
       "location": "Tanzania",
-      "image": "",
-      "description": "Abundance of Big 5, especially the big cats, opportunities to view wildebeest migration aka migration safari. "
+      "image": "./images/Serengeti.png",
+      "description": "Abundance of Big 5, especially the big cats, opportunities to view wildebeest migration aka migration safari."
     },
     {
       "id": "2",
       "name": "Okavango Delta",
       "location": "Botswana",
-      "country": "",
-      "image": "",
+      "image": "./images/OkavangoDelta.png",
       "description": "A variety of tours such as canoe, boat, and classic safaris, waterway paradise, and presence of big 5"
     },
     {
       "id": "3",
       "name": "Oldonyo Sapuk",
-      "location": "Kenya",  
-      "image": "",
+      "location": "Kenya",
+      "image": "./images/OldonyoSapuk.png",
       "description": "Embark on a private hiking tour to Oldonyo Sapuk from Nairobi. Discover the rich historical significance of this mountain and enjoy a thrilling adventure. "
     },
     {
       "id": "4",
       "name": "Victoria Falls",
       "location": "Zambia",
-      "image": "",
+      "image": "./images/VictoriaFalls.png",
       "description": ""
     },
     {
       "id": "5",
       "name": "Long Branch Falls",
       "location": "Malawi",
-      "image": "",
+      "image": "./images/LongBranchFalls.png",
+      "description": ""
+    },
+    {
+      "id": "555a",
+      "name": "Kirstenbosch Botanical Garden",
+      "location": "South Africa",
+      "image": "./images/Kirstenbosch.png",
+      "description": ""
+    },
+    {
+      "id": "9e01",
+      "name": "Valley Of 1000 Hills",
+      "location": "South Africa",
+      "image": "./images/1000Hills.png",
       "description": ""
     }
+  ],
+  "comments": [
+    { "id": "1", "text": "a comment on destination 1", "destinationId": "1" },
+    { "id": "2", "text": "a comment on destination 2", "destinationId": "2" },
+    { "id": "3", "text": "a comment on destination 3", "destinationId": "3" },
+    { "id": "4", "text": "a comment on destination 4", "destinationId": "4" },
+    { "id": "5", "text": "a comment on destination 5","destinationId": "5" },
+    { "id": "6", "text": "a comment on destination 6", "destinationId": "6" },
+    { "id": "7", "text": "a comment on  destination 7", "destinationId": "7" }
   ]
+  
 }

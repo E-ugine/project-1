@@ -61,15 +61,15 @@ body {
     font-size: 1rem;
 }
 
-.hero-carousel {
+.hero-images {
     display: flex;
     margin-top: 20px;
 }
 
-.hero-carousel img {
+.hero-images img {
     margin: 0 5px;
-    width: 100px;
-    height: 100px;
+    width: 400px;
+    height: 400px;
     object-fit: cover;
     border-radius: 5px;
 }
@@ -99,17 +99,17 @@ body {
     font-size: 1rem;
 }
 
-.top-destinations, .useful-info {
+.top-destinations, .More-info {
     padding: 20px 40px;
     text-align: center;
 }
 
-.top-destinations h2, .useful-info h2 {
+.top-destinations h2, .More-info h2 {
     margin-bottom: 20px;
     position: relative;
 }
 
-.top-destinations h2::after, .useful-info h2::after {
+.top-destinations h2::after, .More-info h2::after {
     content: '';
     display: block;
     width: 60px;
@@ -120,8 +120,9 @@ body {
 
 .grid {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    scroll-snap-type: x mandatory; /* Smooth snap to items */
+    padding-bottom: 20px; /* Add padding to avoid scroll bar overlap */
 }
 
 .grid div {
@@ -135,6 +136,7 @@ body {
     position: relative;
     border-radius: 5px;
     overflow: hidden;
+    scroll-snap-align: start; /* Snap each item to the start */
 }
 
 .grid div img {
@@ -154,7 +156,7 @@ body {
 
 .comments-section {
     padding: 20px 40px;
-    background-color: #111;
+    background-color: palegreen;
     margin-top: 20px;
 }
 
@@ -189,23 +191,23 @@ body {
     padding: 5px 10px;
 }
 
-.add-comment {
+.add-delete-comment {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.add-comment input {
+.add-delete-comment input {
     padding: 10px;
     width: 50%;
     border: none;
     border-radius: 5px;
 }
 
-.add-comment button {
+.add-delete-comment button {
     padding: 10px;
     margin-left: 10px;
-    background-color: red;
+    background-color: green;
     border: none;
     color: #fff;
     cursor: pointer;
