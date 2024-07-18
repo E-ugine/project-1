@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Explore Africa</title>
+    <title>Tour Destinations in Africa</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -14,20 +14,13 @@
             <a href="#">Explore</a>
             <a href="#">About</a>
         </div>
-        
     </div>
 
     <div class="hero">
         <div class="hero-content">
-            <h1>Let's Explore!</h1>
+            <h1>LET'S TOUR AFRICA</h1>
             <p>"The life of your dreams"</p>
             <button class="start-btn">Start now</button>
-        </div>
-        <div class="hero-images">
-            <img src="./images/Serengeti.png" alt="Image 1">
-            <img src="./images/OkavangoDelta.png" alt="Image 2">
-            <img src="./images/Kirstenbosch.png" alt="Image 3">
-           
         </div>
     </div>
 
@@ -36,54 +29,23 @@
         <button>EXPLORE</button>
     </div>
 
-
     <div class="top-destinations">
-        <h2>Top Destination</h2>
-        <div class="grid">
-            <div>
-                <img src="./images/Serengeti.png" alt="Serengeti Park">
-                <span>Serengeti</span>
-
-            </div>
-            <div>
-                <img src="./images/VictoriaFalls.png" alt="Victoria Falls">
-                <span>VictoriaFalls</span>
-            </div>
-            <div>
-                <img src="./images/OldonyoSapuk.png" alt="Oldonyo Sapuk">  
-                <span>Oldonyo Sapuk</span>            
-            </div>
-            <div>
-                <img src="./images/OkavangoDelta.png" alt="Okavango Delta"> 
-                <span>Okavango Delta</span>        
-            </div> 
-            <div>
-                <img src="./images/LongBranchFalls.png" alt="Okavango Delta"> 
-                <span>Long Branch Falls</span>        
-            </div> 
-            <div>
-                <img src="./images/1000Hills.png" alt="ValleyOf1000Hills"> 
-                <span>Valley Of 1000 Hills</span>        
-            </div>        
-        </div>
+        <h2>Top Destinations</h2>
+        <div class="grid" id="top-destinations-grid"></div>
     </div>
 
-
-
-    <div class="More-info">
+    <div class="more-info">
         <h2>More Information</h2>
+        <div id="destination-info"></div>
     </div>
 
     <div class="comments-section">
         <h2>Comments</h2>
-        <div class="comments-list"></div>
-        <div class="add-delete-comment">
-            <select id="destination-select">
-                <option value="">Select Destination</option>
-            </select>
-            <input type="text" id="comment-input" placeholder="Add a comment...">
+        <div class="comments-list" id="comments-list"></div>
+        <div class="add-edit-comment">
+            <input type="text" id="comment-input" placeholder="Add or edit a comment...">
             <button id="add-comment-button">Add Comment</button>
-            <button id="delete-comment-button">Delete</button>
+            <button id="edit-comment-button">Edit Comment</button>
         </div>
     </div>
     

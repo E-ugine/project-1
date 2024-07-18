@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family:Georgia, 'Times New Roman', Times, serif;
     margin: 0;
     padding: 0;
     background-color: green;
@@ -22,12 +22,6 @@ body {
 .header .nav-links a {
     color: #fff;
     margin: 0 15px;
-    text-decoration: none;
-}
-
-.header .actions a {
-    color: #fff;
-    margin: 0 10px;
     text-decoration: none;
 }
 
@@ -61,12 +55,13 @@ body {
     font-size: 1rem;
 }
 
-.hero-images {
+
+.hero-vidoes {
     display: flex;
     margin-top: 20px;
 }
 
-.hero-images img {
+.hero-videos video {
     margin: 0 5px;
     width: 400px;
     height: 400px;
@@ -120,9 +115,9 @@ body {
 
 .grid {
     display: flex;
-    overflow-x: auto; /* Enable horizontal scrolling */
-    scroll-snap-type: x mandatory; /* Smooth snap to items */
-    padding-bottom: 20px; /* Add padding to avoid scroll bar overlap */
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    padding-bottom: 20px;
 }
 
 .grid div {
@@ -136,13 +131,16 @@ body {
     position: relative;
     border-radius: 5px;
     overflow: hidden;
-    scroll-snap-align: start; /* Snap each item to the start */
+    scroll-snap-align: start;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    cursor: pointer;
 }
 
 .grid div img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    transition: transform 0.3s ease, opacity 0.3s ease;
 }
 
 .grid div span {
@@ -152,11 +150,17 @@ body {
     background-color: rgba(0, 0, 0, 0.5);
     padding: 5px;
     border-radius: 5px;
+    color: #fff;
+}
+
+.grid div:hover {
+    transform: scale(1.1);
+    opacity: 0.9;
 }
 
 .comments-section {
     padding: 20px 40px;
-    background-color: palegreen;
+    background-color: green;
     margin-top: 20px;
 }
 

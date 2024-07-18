@@ -4,6 +4,7 @@
       "id": "1",
       "name": "Serengeti National Park",
       "location": "Tanzania",
+      "video":"./videos/TZ.mp4",
       "image": "./images/Serengeti.png",
       "description": "Abundance of Big 5, especially the big cats, opportunities to view wildebeest migration aka migration safari."
     },
@@ -18,6 +19,7 @@
       "id": "3",
       "name": "Oldonyo Sapuk",
       "location": "Kenya",
+      "video":"./videos/safari.mp4",
       "image": "./images/OldonyoSapuk.png",
       "description": "Embark on a private hiking tour to Oldonyo Sapuk from Nairobi. Discover the rich historical significance of this mountain and enjoy a thrilling adventure. "
     },
@@ -25,6 +27,7 @@
       "id": "4",
       "name": "Victoria Falls",
       "location": "Zambia",
+    "video":"./videos/VictoriaFalls.mp4",
       "image": "./images/VictoriaFalls.png",
       "description": ""
     },
@@ -48,16 +51,16 @@
       "location": "South Africa",
       "image": "./images/1000Hills.png",
       "description": ""
-    }
-  ],
-  "comments": [
-    { "id": "1", "text": "a comment on destination 1", "destinationId": "1" },
-    { "id": "2", "text": "a comment on destination 2", "destinationId": "2" },
-    { "id": "3", "text": "a comment on destination 3", "destinationId": "3" },
-    { "id": "4", "text": "a comment on destination 4", "destinationId": "4" },
-    { "id": "5", "text": "a comment on destination 5","destinationId": "5" },
-    { "id": "6", "text": "a comment on destination 6", "destinationId": "6" },
-    { "id": "7", "text": "a comment on  destination 7", "destinationId": "7" }
+    },
+    {
+        "id": "8",
+        "name": "Mount Mulanje",
+        "location": "Malawi",
+        "image": "./images/MountMulanje.png",
+        "description": "<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error consequatur officia recusandae odit, cupiditate ducimus quo possimus mollitia nisi quasi aspernatur iusto sapiente, impedit, assumenda corrupti! Animi facere ducimus ratione magni repellendus, impedit optio ex. Blanditiis praesentium error, delectus consectetur mollitia ipsum architecto officiis officia voluptas hic inventore. Eligendi, totam maiores? Ipsa officiis accusantium, omnis quos a perferendis sed dolore amet, ad soluta quaerat vero. Sunt beatae, impedit suscipit fuga veritatis facilis dolores deserunt quis neque incidunt harum delectus voluptas ut totam quasi ad, nostrum magni similique magnam voluptate porro dolore mollitia! Provident doloremque, dolores necessitatibus laudantium facilis itaque reiciendis?</p>"
+    
+      }
   ]
+ 
   
 }
