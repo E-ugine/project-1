@@ -21,8 +21,31 @@
             <h1>LET'S TOUR AFRICA</h1>
             <p>"The life of your dreams"</p>
             <button class="start-btn">Start now</button>
-        </div>
+        </div>       
     </div>
+
+
+
+    <div class="video-container">
+        <video width="320" height="240" controls>
+            <source src="./videos/TZ.mp4" type="video/mp4">
+            <source src="movie.ogg" type="video/ogg">
+          Your browser does not support the video tag.
+          </video>
+
+          <video width="320" height="240" controls>
+            <source src="./videos/VictoriaFalls.mp4" type="video/mp4">
+            <source src="movie.ogg" type="video/ogg">
+          Your browser does not support the video tag.
+          </video>
+          <video width="320" height="240" controls>
+            <source src="./videos/safari.mp4" type="video/mp4">
+            <source src="movie.ogg" type="video/ogg">
+          Your browser does not support the video tag.
+          </video>
+    </div>
+
+
 
     <div class="search-bar">
         <input type="text" placeholder="Places to Go">
@@ -34,18 +57,35 @@
         <div class="grid" id="top-destinations-grid"></div>
     </div>
 
-    <div class="more-info">
+    <div class="more-info" id="more-info">
         <h2>More Information</h2>
         <div id="destination-info"></div>
     </div>
 
+    <!-- Add this inside the body, preferably at the end -->
+<div id="modal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <div class="modal-body">
+            <div class="modal-text">
+                <h2 id="modal-destination-name"></h2>
+                <p id="modal-destination-location"></p>
+                <p id="modal-destination-description"></p>
+            </div>
+            <div class="modal-image">
+                <img id="modal-destination-image" src="" alt="Destination Image">
+            </div>
+        </div>
+    </div>
+</div>
+
+
     <div class="comments-section">
         <h2>Comments</h2>
         <div class="comments-list" id="comments-list"></div>
-        <div class="add-edit-comment">
+        <div class="add-delete-comment">
             <input type="text" id="comment-input" placeholder="Add or edit a comment...">
             <button id="add-comment-button">Add Comment</button>
-            <button id="edit-comment-button">Edit Comment</button>
         </div>
     </div>
     

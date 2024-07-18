@@ -1,8 +1,8 @@
 body {
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 0;
     padding: 0;
-    background-color: green;
+    background:linear-gradient(to right, rgb(52, 232, 158), rgb(15, 52, 67));
     color: #fff;
 }
 
@@ -52,21 +52,7 @@ body {
     color: #fff;
     cursor: pointer;
     border-radius: 5px;
-    font-size: 1rem;
-}
-
-
-.hero-vidoes {
-    display: flex;
-    margin-top: 20px;
-}
-
-.hero-videos video {
-    margin: 0 5px;
-    width: 400px;
-    height: 400px;
-    object-fit: cover;
-    border-radius: 5px;
+    font-size: 1rem;  
 }
 
 .search-bar {
@@ -94,17 +80,17 @@ body {
     font-size: 1rem;
 }
 
-.top-destinations, .More-info {
+.top-destinations, .more-info {
     padding: 20px 40px;
     text-align: center;
 }
 
-.top-destinations h2, .More-info h2 {
+.top-destinations h2, .more-info h2 {
     margin-bottom: 20px;
     position: relative;
 }
 
-.top-destinations h2::after, .More-info h2::after {
+.top-destinations h2::after, .more-info h2::after {
     content: '';
     display: block;
     width: 60px;
@@ -118,6 +104,8 @@ body {
     overflow-x: auto;
     scroll-snap-type: x mandatory;
     padding-bottom: 20px;
+    align-items: center;
+    justify-content: center;
 }
 
 .grid div {
@@ -127,7 +115,7 @@ body {
     background-color: #333;
     display: flex;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
     position: relative;
     border-radius: 5px;
     overflow: hidden;
@@ -160,7 +148,7 @@ body {
 
 .comments-section {
     padding: 20px 40px;
-    background-color: green;
+    background: linear-gradient(102.2deg, rgb(109, 118, 150) 7.1%, rgb(89, 72, 79) 14.7%, rgb(69, 92, 79) 28%, rgb(204, 85, 67) 43.4%, rgb(237, 181, 121) 60.2%, rgb(219, 230, 175) 76.8%);
     margin-top: 20px;
 }
 
@@ -183,7 +171,7 @@ body {
 }
 
 .comment span {
-    color: #fff;
+    color: #000;
 }
 
 .comment button {
@@ -211,9 +199,89 @@ body {
 .add-delete-comment button {
     padding: 10px;
     margin-left: 10px;
-    background-color: green;
+    background: purple;
     border: none;
     color: #fff;
     cursor: pointer;
     border-radius: 5px;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.video-container video {
+    width: 480px;
+    height: 370px;
+    border-radius: 10px;
+}
+/* Add these styles to your existing CSS */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modal-content {
+    background-color: #fff;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.modal-body {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.modal-text {
+    flex: 1;
+    padding: 20px;
+    color: #000;
+}
+
+.modal-image {
+    flex: 1;
+    text-align: center;
+}
+
+.modal-image img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
 }

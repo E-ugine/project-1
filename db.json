@@ -4,63 +4,95 @@
       "id": "1",
       "name": "Serengeti National Park",
       "location": "Tanzania",
-      "video":"./videos/TZ.mp4",
+      "video": "./videos/TZ.mp4",
       "image": "./images/Serengeti.png",
-      "description": "Abundance of Big 5, especially the big cats, opportunities to view wildebeest migration aka migration safari."
+      "description": "Abundance of Big 5, especially the big cats, opportunities to view wildebeest migration aka migration safari.",
+      "comments": [
+        {
+          "id": "1721305723090",
+          "text": "Classification"
+        },
+        {
+          "id": "1721306132987",
+          "text": "Great"
+        }
+      ]
     },
     {
       "id": "2",
       "name": "Okavango Delta",
       "location": "Botswana",
       "image": "./images/OkavangoDelta.png",
-      "description": "A variety of tours such as canoe, boat, and classic safaris, waterway paradise, and presence of big 5"
+      "description": "A variety of tours such as canoe, boat, and classic safaris, waterway paradise, and presence of big 5",
+      "comments": [
+        {
+          "id": "1721305230959",
+          "text": "win"
+        }
+      ]
     },
     {
       "id": "3",
       "name": "Oldonyo Sapuk",
       "location": "Kenya",
-      "video":"./videos/safari.mp4",
+      "video": "./videos/safari.mp4",
       "image": "./images/OldonyoSapuk.png",
-      "description": "Embark on a private hiking tour to Oldonyo Sapuk from Nairobi. Discover the rich historical significance of this mountain and enjoy a thrilling adventure. "
+      "description": "Embark on a private hiking tour to Oldonyo Sapuk from Nairobi. Discover the rich historical significance of this mountain and enjoy a thrilling adventure.",
+      "comments": []
     },
     {
       "id": "4",
       "name": "Victoria Falls",
       "location": "Zambia",
-    "video":"./videos/VictoriaFalls.mp4",
+      "video": "./videos/VictoriaFalls.mp4",
       "image": "./images/VictoriaFalls.png",
-      "description": ""
+      "description": "",
+      "comments": []
     },
     {
       "id": "5",
       "name": "Long Branch Falls",
       "location": "Malawi",
       "image": "./images/LongBranchFalls.png",
-      "description": ""
+      "description": "",
+      "comments": []
     },
     {
-      "id": "555a",
+      "id": "6",
       "name": "Kirstenbosch Botanical Garden",
       "location": "South Africa",
       "image": "./images/Kirstenbosch.png",
-      "description": ""
+      "description": "",
+      "comments": []
     },
     {
       "id": "9e01",
       "name": "Valley Of 1000 Hills",
       "location": "South Africa",
       "image": "./images/1000Hills.png",
-      "description": ""
+      "description": "",
+      "comments": []
     },
     {
-        "id": "8",
-        "name": "Mount Mulanje",
-        "location": "Malawi",
-        "image": "./images/MountMulanje.png",
-        "description": "<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error consequatur officia recusandae odit, cupiditate ducimus quo possimus mollitia nisi quasi aspernatur iusto sapiente, impedit, assumenda corrupti! Animi facere ducimus ratione magni repellendus, impedit optio ex. Blanditiis praesentium error, delectus consectetur mollitia ipsum architecto officiis officia voluptas hic inventore. Eligendi, totam maiores? Ipsa officiis accusantium, omnis quos a perferendis sed dolore amet, ad soluta quaerat vero. Sunt beatae, impedit suscipit fuga veritatis facilis dolores deserunt quis neque incidunt harum delectus voluptas ut totam quasi ad, nostrum magni similique magnam voluptate porro dolore mollitia! Provident doloremque, dolores necessitatibus laudantium facilis itaque reiciendis?</p>"
-    
-      }
+        "id": "11",
+        "name": "Valley Of 1000 Hills",
+        "location": "South Africa",
+        "image": "./images.png",
+        "description": "",
+        "comments": []
+      },
+    {
+      "id": "8",
+      "name": "Mount Mulanje",
+      "location": "Malawi",
+      "image": "./images/MountMulanje.png",
+      "description": "<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error consequatur officia recusandae odit, cupiditate ducimus quo possimus mollitia nisi quasi aspernatur iusto sapiente, impedit, assumenda corrupti! Animi facere ducimus ratione magni repellendus, impedit optio ex. Blanditiis praesentium error, delectus consectetur mollitia ipsum architecto officiis officia voluptas hic inventore. Eligendi, totam maiores? Ipsa officiis accusantium, omnis quos a perferendis sed dolore amet, ad soluta quaerat vero. Sunt beatae, impedit suscipit fuga veritatis facilis dolores deserunt quis neque incidunt harum delectus voluptas ut totam quasi ad, nostrum magni similique magnam voluptate porro dolore mollitia! Provident doloremque, dolores necessitatibus laudantium facilis itaque reiciendis?</p>",
+      "comments": [
+        {
+          "id": "1721306511025",
+          "text": "looking good"
+        }
+      ]
+    }
   ]
- 
-  
 }
