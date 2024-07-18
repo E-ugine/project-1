@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
 
     function displayTopDestinations() {
-        const topDestinations = destinations.slice(0, 5); // Display only the first 5 destinations
+        const topDestinations = destinations.slice(0, 5); 
         topDestinationsGrid.innerHTML = topDestinations.map(destination => `
             <div>
                 <img src="${destination.image}" alt="${destination.name}" data-id="${destination.id}">
@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', () => {
             </div>
         `).join('');
 
-        attachGridEventListeners(); // Attach event listeners to grid items
+        attachGridEventListeners(); 
     }
 
     function displayTopVideos() {
@@ -55,7 +55,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 </div>
             ` : '').join('');
 
-        videoContainer.innerHTML = topVideos; // Display the videos above the search bar
+        videoContainer.innerHTML = topVideos; 
     }
 
     function attachGridEventListeners() {
@@ -141,7 +141,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     addCommentButton.addEventListener('click', (event) => {
-        event.preventDefault(); // Prevent form submission and page reload
+        event.preventDefault(); 
         const commentText = commentInput.value.trim();
         if (commentText && currentDestinationId) {
             const destination = destinations.find(dest => dest.id == currentDestinationId);
@@ -209,7 +209,7 @@ document.addEventListener('DOMContentLoaded', () => {
         performSearch();
     });
 
-    // Initial Display
+
     displayTopDestinations(); // Display top 5 destinations initially
 });
 
