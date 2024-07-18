@@ -28,11 +28,11 @@ document.addEventListener('DOMContentLoaded', () => {
         .then((data) => {
             destinations = data;
             displayTopDestinations();
-            displayTopVideos();
+            
         });
 
     function displayTopDestinations() {
-        const topDestinations = destinations.slice(0, 5); 
+        const topDestinations = destinations.slice(0, 6); 
         topDestinationsGrid.innerHTML = topDestinations.map(destination => `
             <div>
                 <img src="${destination.image}" alt="${destination.name}" data-id="${destination.id}">
@@ -40,23 +40,10 @@ document.addEventListener('DOMContentLoaded', () => {
             </div>
         `).join('');
 
-        attachGridEventListeners(); 
+        attachGridEventListeners(); displayTopVideos();
     }
 
-    function displayTopVideos() {
-        const topVideos = destinations.slice(0, 1) // Get the first 3 destinations
-            .map(destination => destination.video ? `
-                <div>
-                    <video controls>
-                        <source src="${destination.video}" type="video/mp4">
-                        Your browser does not support the video tag.
-                    </video>
-                    <span>${destination.name}</span>
-                </div>
-            ` : '').join('');
-
-        videoContainer.innerHTML = topVideos; 
-    }
+   
 
     function attachGridEventListeners() {
         document.querySelectorAll('#top-destinations-grid div').forEach(div => {
@@ -139,6 +126,7 @@ document.addEventListener('DOMContentLoaded', () => {
             });
         });
     }
+
 
     addCommentButton.addEventListener('click', (event) => {
         event.preventDefault(); 
