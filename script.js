@@ -16,6 +16,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const modalDestinationDescription = document.getElementById("modal-destination-description");
     const modalDestinationImage = document.getElementById("modal-destination-image");
 
+    const videoContainer = document.getElementById('video-container');
+
     let currentDestinationId = null;
     let editCommentId = null;
 
@@ -26,6 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
         .then((data) => {
             destinations = data;
             displayTopDestinations();
+            displayTopVideos();
         });
 
     function displayTopDestinations() {
@@ -38,6 +41,21 @@ document.addEventListener('DOMContentLoaded', () => {
         `).join('');
 
         attachGridEventListeners(); // Attach event listeners to grid items
+    }
+
+    function displayTopVideos() {
+        const topVideos = destinations.slice(0, 1) // Get the first 3 destinations
+            .map(destination => destination.video ? `
+                <div>
+                    <video controls>
+                        <source src="${destination.video}" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <span>${destination.name}</span>
+                </div>
+            ` : '').join('');
+
+        videoContainer.innerHTML = topVideos; // Display the videos above the search bar
     }
 
     function attachGridEventListeners() {
@@ -194,3 +212,8 @@ document.addEventListener('DOMContentLoaded', () => {
     // Initial Display
     displayTopDestinations(); // Display top 5 destinations initially
 });
+
+
+
+
+

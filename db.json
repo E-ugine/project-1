@@ -11,10 +11,6 @@
         {
           "id": "1721305723090",
           "text": "Classification"
-        },
-        {
-          "id": "1721306132987",
-          "text": "Great"
         }
       ]
     },
@@ -74,13 +70,13 @@
       "comments": []
     },
     {
-        "id": "11",
-        "name": "Valley Of 1000 Hills",
-        "location": "South Africa",
-        "image": "./images.png",
-        "description": "",
-        "comments": []
-      },
+      "id": "11",
+      "name": "Valley Of 1000 Hills",
+      "location": "South Africa",
+      "image": "./images.png",
+      "description": "",
+      "comments": []
+    },
     {
       "id": "8",
       "name": "Mount Mulanje",

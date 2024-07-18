@@ -4,6 +4,7 @@ body {
     padding: 0;
     background:linear-gradient(to right, rgb(52, 232, 158), rgb(15, 52, 67));
     color: #fff;
+   
 }
 
 .header {
@@ -53,6 +54,35 @@ body {
     cursor: pointer;
     border-radius: 5px;
     font-size: 1rem;  
+}
+
+.video-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+    
+}
+
+.video-container div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.video-container video {
+    width: 80%;
+    height: 300px;
+    max-width: 450px;
+    max-height: 600px;
+    display: flex;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.video-container span {
+    margin-top: 5px;
+    font-weight: bold;
 }
 
 .search-bar {
@@ -235,20 +265,7 @@ body {
     border-radius: 5px;
 }
 
-.video-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 20px;
-    padding: 20px;
-}
 
-.video-container video {
-    width: 480px;
-    height: 370px;
-    border-radius: 10px;
-}
 /* Add these styles to your existing CSS */
 .modal {
     display: none; /* Hidden by default */
