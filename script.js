@@ -37,6 +37,10 @@ document.addEventListener('DOMContentLoaded', () => {
             </div>
         `).join('');
 
+        attachGridEventListeners(); // Attach event listeners to grid items
+    }
+
+    function attachGridEventListeners() {
         document.querySelectorAll('#top-destinations-grid div').forEach(div => {
             div.addEventListener('click', () => {
                 const destinationId = div.querySelector('img').getAttribute('data-id');
@@ -49,21 +53,6 @@ document.addEventListener('DOMContentLoaded', () => {
             });
         });
     }
-
-    searchButton.addEventListener('click', (event) => {
-        event.preventDefault(); // Prevent form submission and page reload
-        const searchValue = searchInput.value.trim();
-        if (searchValue) {
-            const destination = destinations.find(destination => destination.id === searchValue || destination.name.toLowerCase() === searchValue.toLowerCase());
-            if (destination) {
-                displayDestinationInfo(destination);
-                displayComments(destination);
-                currentDestinationId = destination.id;
-            } else {
-                moreInfoSection.innerHTML = '<p>Destination not found!</p>';
-            }
-        }
-    });
 
     function displayDestinationModal(destination) {
         modalDestinationName.innerText = destination.name;
@@ -106,6 +95,10 @@ document.addEventListener('DOMContentLoaded', () => {
             </div>
         `).join('');
 
+        attachCommentEventListeners(destination);
+    }
+
+    function attachCommentEventListeners(destination) {
         commentsList.querySelectorAll('.edit-btn').forEach(button => {
             button.addEventListener('click', () => {
                 const commentDiv = button.parentElement;
@@ -170,4 +163,34 @@ document.addEventListener('DOMContentLoaded', () => {
             destinations[index] = updatedDestination;
         });
     }
+
+    // Search Filter Functionality
+    function performSearch() {
+        const searchTerm = searchInput.value.trim().toLowerCase();
+        const filteredDestination = destinations.find(dest =>
+            dest.id.toLowerCase() === searchTerm ||
+            dest.name.toLowerCase() === searchTerm
+        );
+        
+        if (filteredDestination) {
+            displayDestinationInfo(filteredDestination);
+            displayComments(filteredDestination);
+            currentDestinationId = filteredDestination.id;
+        } else {
+            moreInfoSection.innerHTML = '<p>Destination not found!</p>';
+        }
+    }
+
+    searchInput.addEventListener('keyup', (event) => {
+        if (event.key === 'Enter') {
+            performSearch();
+        }
+    });
+
+    searchButton.addEventListener('click', () => {
+        performSearch();
+    });
+
+    // Initial Display
+    displayTopDestinations(); // Display top 5 destinations initially
 });
