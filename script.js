@@ -28,28 +28,27 @@ document.addEventListener('DOMContentLoaded', () => {
             displayTopDestinations();
         });
 
-        function displayTopDestinations() {
-            const topDestinations = destinations.slice(0, 5); // Display only the first 5 destinations
-            topDestinationsGrid.innerHTML = topDestinations.map(destination => `
-                <div>
-                    <img src="${destination.image}" alt="${destination.name}" data-id="${destination.id}">
-                    <span>${destination.name}</span>
-                </div>
-            `).join('');
-        
-            document.querySelectorAll('#top-destinations-grid div').forEach(div => {
-                div.addEventListener('click', () => {
-                    const destinationId = div.querySelector('img').getAttribute('data-id');
-                    const destination = destinations.find(dest => dest.id == destinationId);
-                    if (destination) {
-                        displayDestinationModal(destination);
-                        displayComments(destination);
-                        currentDestinationId = destinationId;
-                    }
-                });
+    function displayTopDestinations() {
+        const topDestinations = destinations.slice(0, 5); // Display only the first 5 destinations
+        topDestinationsGrid.innerHTML = topDestinations.map(destination => `
+            <div>
+                <img src="${destination.image}" alt="${destination.name}" data-id="${destination.id}">
+                <span>${destination.name}</span>
+            </div>
+        `).join('');
+
+        document.querySelectorAll('#top-destinations-grid div').forEach(div => {
+            div.addEventListener('click', () => {
+                const destinationId = div.querySelector('img').getAttribute('data-id');
+                const destination = destinations.find(dest => dest.id == destinationId);
+                if (destination) {
+                    displayDestinationModal(destination);
+                    displayComments(destination);
+                    currentDestinationId = destinationId;
+                }
             });
-        }
-        
+        });
+    }
 
     searchButton.addEventListener('click', (event) => {
         event.preventDefault(); // Prevent form submission and page reload
@@ -57,7 +56,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (searchValue) {
             const destination = destinations.find(destination => destination.id === searchValue || destination.name.toLowerCase() === searchValue.toLowerCase());
             if (destination) {
-                displayDestinationModal(destination);
+                displayDestinationInfo(destination);
                 displayComments(destination);
                 currentDestinationId = destination.id;
             } else {
@@ -84,6 +83,19 @@ document.addEventListener('DOMContentLoaded', () => {
             modal.style.display = "none";
         }
     });
+
+    function displayDestinationInfo(destination) {
+        moreInfoSection.innerHTML = `
+            <div class="info-container">
+                <img src="${destination.image}" alt="${destination.name}" class="info-image">
+                <div class="info-text">
+                    <p><strong>Name:</strong> ${destination.name}</p>
+                    <p><strong>Location:</strong> ${destination.location}</p>
+                    <p><strong>Description:</strong> ${destination.description}</p>
+                </div>
+            </div>
+        `;
+    }
 
     function displayComments(destination) {
         commentsList.innerHTML = (destination.comments || []).map(comment => `

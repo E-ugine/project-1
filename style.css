@@ -99,6 +99,35 @@ body {
     margin: 10px auto 0;
 }
 
+.more-info {
+    padding: 20px 40px;
+    text-align: center; /* Changed to left align */
+    background-color: white; /* Set background to white */
+    color: black; /* Set text color to black */
+    border-radius: 10px;
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.info-container {
+    display: flex;
+    align-items: center;
+}
+
+.info-image {
+    width: 50%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.info-text {
+    width: 50%;
+    padding-left: 20px;
+}
+
+
 .grid {
     display: flex;
     overflow-x: auto;
