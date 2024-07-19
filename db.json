@@ -9,10 +9,6 @@
       "description": "Serengeti National Park, in northern Tanzania, is known for its massive annual migration of wildebeest and zebra. Seeking new pasture, the herds move north from their breeding grounds in the grassy southern plains. Many cross the marshy western corridor’s crocodile-infested Grumeti River. Others veer northeast to the Lobo Hills, home to black eagles. Black rhinos inhabit the granite outcrops of the Moru Kopjes.Abundance of Big 5, especially the big cats, opportunities to view wildebeest migration aka migration safari.",
       "comments": [
         {
-          "id": "1721333621305",
-          "text": "Good"
-        },
-        {
           "id": "1721333954640",
           "text": "yess"
         },
@@ -51,7 +47,12 @@
       "video": "./videos/VictoriaFalls.mp4",
       "image": "https://africanbushcamps.com/wp-content/uploads/2022/02/victoria-falls-5903496_1280-1024x683.webp",
       "description": "Walking down the footpaths of Victoria Falls National Park can be quite an experience. You’ll find yourself in a lush rainforest, and then reach gorge-edge viewpoints. Here, you will be met by the majestic Main Falls, which thunders down into the rock chasm below, causing tremors beneath your feet.If you’re more interested in getting close to the cascades of water, then you should make your way to the Zambian side of the Vic Falls. During high-water season, you will be able to stroll along the paved trails on the waterfall’s edge and traverse the heart-racing Knife-Brink Bridge—an exhilarating (and drenching) trek along the edge of the precipice, about 100 meters (328 feet) above the gorge.Even during low-water season, you can follow the trail down to the boiling pot, a large vortex at the bottom of the waterfall. Look up and be amazed at the sheer size of this natural phenomenon!",
-      "comments": []
+      "comments": [
+        {
+          "id": "1721376068088",
+          "text": "Yes"
+        }
+      ]
     },
     {
       "id": "5",
@@ -112,7 +113,12 @@
       "location": "Tanzania",
       "image": "https://media.cnn.com/api/v1/images/stellar/prod/180508142118-18-amazing-places-africa-kilimanjaro.jpg?q=w_1110,c_fill/f_webp",
       "description": "Mount Kilimanjaro is the highest mountain in Africa and a popular destination for trekking. It offers breathtaking views and diverse ecosystems from the base to the summit.Mount Kilimanjaro, at 5,895 meters (19,341 feet), is Africa’s highest peak – and an item on thousands of bucket lists. It is a “Sky island,” creating a varied and dramatic natural habitat.Rising through lush rainforests and alpine meadows, climbers finally cross a barren lunar landscape to reach the twin summit, often above the clouds.",
-      "comments": []
+      "comments": [
+        {
+          "id": "1721389257052",
+          "text": "Surely"
+        }
+      ]
     },
     {
       "id": "12",
@@ -122,8 +128,8 @@
       "description": "Bwindi Impenetrable National Park is renowned for its population of mountain gorillas. Visitors can trek through dense forests to observe these magnificent creatures in their natural habitat.",
       "comments": [
         {
-          "id": "1721370149633",
-          "text": "Great view by the sides"
+          "id": "1721372439737",
+          "text": "Good"
         }
       ]
     },

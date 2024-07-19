@@ -90,6 +90,7 @@ document.addEventListener('DOMContentLoaded', () => {
             </div>
         `;
     }
+    
 
     function displayComments(destination) {
         commentsList.innerHTML = (destination.comments || []).map(comment => `
