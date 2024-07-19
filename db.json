@@ -5,8 +5,8 @@
       "name": "Serengeti National Park",
       "location": "Tanzania",
       "video": "./videos/TZ.mp4",
-      "image": "./images/Serengeti.png",
-      "description": "Abundance of Big 5, especially the big cats, opportunities to view wildebeest migration aka migration safari.",
+      "image": "https://www.naturaltoursandsafaris.com/wp-content/webp-express/webp-images/wp-content/uploads/2023/02/Serengeti-National-Park-Africa-Kenya-Safaris2.jpg.webp",
+      "description": "Serengeti National Park, in northern Tanzania, is known for its massive annual migration of wildebeest and zebra. Seeking new pasture, the herds move north from their breeding grounds in the grassy southern plains. Many cross the marshy western corridor’s crocodile-infested Grumeti River. Others veer northeast to the Lobo Hills, home to black eagles. Black rhinos inhabit the granite outcrops of the Moru Kopjes.Abundance of Big 5, especially the big cats, opportunities to view wildebeest migration aka migration safari.",
       "comments": [
         {
           "id": "1721333621305",
@@ -27,7 +27,7 @@
       "name": "Okavango Delta",
       "location": "Botswana",
       "image": "./images/OkavangoDelta.png",
-      "description": "A variety of tours such as canoe, boat, and classic safaris, waterway paradise, and presence of big 5",
+      "description": "The Okavango Delta is a vast inland river delta in northern Botswana. It's known for its sprawling grassy plains, which flood seasonally, becoming a lush animal habitat. The Moremi Game Reserve occupies the east and central areas of the region. Here, dugout canoes are used to navigate past hippos, elephants and crocodiles. On dry land, wildlife includes lions, leopards, giraffes and rhinos.A variety of tours such as canoe, boat, and classic safaris, waterway paradise, and presence of big 5",
       "comments": [
         {
           "id": "1721305230959",
@@ -37,7 +37,7 @@
     },
     {
       "id": "3",
-      "name": "Oldonyo Sapuk",
+      "name": "Oldonyo Sabuk",
       "location": "Kenya",
       "video": "./videos/safari.mp4",
       "image": "./images/OldonyoSapuk.png",
@@ -49,8 +49,8 @@
       "name": "Victoria Falls",
       "location": "Zambia",
       "video": "./videos/VictoriaFalls.mp4",
-      "image": "./images/VictoriaFalls.png",
-      "description": "",
+      "image": "https://africanbushcamps.com/wp-content/uploads/2022/02/victoria-falls-5903496_1280-1024x683.webp",
+      "description": "Walking down the footpaths of Victoria Falls National Park can be quite an experience. You’ll find yourself in a lush rainforest, and then reach gorge-edge viewpoints. Here, you will be met by the majestic Main Falls, which thunders down into the rock chasm below, causing tremors beneath your feet.If you’re more interested in getting close to the cascades of water, then you should make your way to the Zambian side of the Vic Falls. During high-water season, you will be able to stroll along the paved trails on the waterfall’s edge and traverse the heart-racing Knife-Brink Bridge—an exhilarating (and drenching) trek along the edge of the precipice, about 100 meters (328 feet) above the gorge.Even during low-water season, you can follow the trail down to the boiling pot, a large vortex at the bottom of the waterfall. Look up and be amazed at the sheer size of this natural phenomenon!",
       "comments": []
     },
     {
@@ -58,7 +58,7 @@
       "name": "Long Branch Falls",
       "location": "Malawi",
       "image": "./images/LongBranchFalls.png",
-      "description": "",
+      "description": "If you are looking for an easy hike to a waterfall that isn't visited that often, Long Branch Falls might be a good choice. The 1 mile hike to the falls is a fairly easy one along a gated forest road, and is kid friendly for the most part. To get to the view in the above photo does require a short steep climb up a side trail, though. The upper drop of Long Branch Falls is about 10' high, the creek then spreads out on a steep sloping rock face for about 20' into a narrow pool. From there the creek tumbles down towards the road, barely visible through the thick rhododendron. You can also combine this waterfall with, Cedar Rock Falls, and Grogan Creek Falls to make an excellent 3 waterfall hike",
       "comments": []
     },
     {
@@ -66,7 +66,7 @@
       "name": "Kirstenbosch Botanical Garden",
       "location": "South Africa",
       "image": "./images/Kirstenbosch.png",
-      "description": "",
+      "description": "Kirstenbosch is an important botanical garden nestled at the eastern foot of Table Mountain in Cape Town. The garden is one of 10 National Botanical Gardens covering five of South Africa's six different biomes and administered by the South African National Biodiversity Institute",
       "comments": []
     },
     {
@@ -74,15 +74,15 @@
       "name": "Valley Of 1000 Hills",
       "location": "South Africa",
       "image": "./images/1000Hills.png",
-      "description": "",
+      "description": "The Valley of a Thousand Hills is a valley between Pietermaritzburg and Durban, South Africa. The Umgeni River meets the Msunduzi River in the valley, and the Dusi Canoe Marathon is run through the area every year.",
       "comments": []
     },
     {
       "id": "8",
-      "name": "Valley Of 1000 Hills",
-      "location": "South Africa",
-      "image": "./images.png",
-      "description": "",
+      "name": "Nxia Pan National Park",
+      "location": "Botswana",
+      "image": "https://www.botswana.co.za/images/lioness-on-the-prowl-naxai-pan-lee-kemp-786x500.jpg",
+      "description": "The Baines baobabs that sit close to the entrance of Botswana’s Nxai Pan National Park take their name from a series of watercolors by Victorian explorer and artist Thomas Baines. Their fruit apparently tastes a little like sherbet.The Nxai Pan park is great for viewing the vast, salt-rich pans that characterize the Kalahari and is also known for lion, leopard and cheetah and unusually large herds of giraffe.",
       "comments": []
     },
     {
@@ -97,6 +97,115 @@
           "text": "looking good"
         }
       ]
+    },
+    {
+      "id": "10",
+      "name": "Zanzibar",
+      "location": "Tanzania",
+      "image": "./images/Zanzibar.png",
+      "description": "Zanzibar is an island paradise known for its crystal-clear waters, rich history, and vibrant culture. Explore the historic Stone Town, enjoy snorkeling and diving, and relax on the beautiful beaches.",
+      "comments": []
+    },
+    {
+      "id": "11",
+      "name": "Mount Kilimanjaro",
+      "location": "Tanzania",
+      "image": "https://media.cnn.com/api/v1/images/stellar/prod/180508142118-18-amazing-places-africa-kilimanjaro.jpg?q=w_1110,c_fill/f_webp",
+      "description": "Mount Kilimanjaro is the highest mountain in Africa and a popular destination for trekking. It offers breathtaking views and diverse ecosystems from the base to the summit.Mount Kilimanjaro, at 5,895 meters (19,341 feet), is Africa’s highest peak – and an item on thousands of bucket lists. It is a “Sky island,” creating a varied and dramatic natural habitat.Rising through lush rainforests and alpine meadows, climbers finally cross a barren lunar landscape to reach the twin summit, often above the clouds.",
+      "comments": []
+    },
+    {
+      "id": "12",
+      "name": "Bwindi Impenetrable National Park",
+      "location": "Uganda",
+      "image": "https://whc.unesco.org/uploads/thumbs/site_0682_0051-750-750-20151105154728.jpg",
+      "description": "Bwindi Impenetrable National Park is renowned for its population of mountain gorillas. Visitors can trek through dense forests to observe these magnificent creatures in their natural habitat.",
+      "comments": [
+        {
+          "id": "1721370149633",
+          "text": "Great view by the sides"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "name": "Kruger National Park",
+      "location": "South Africa",
+      "image": "./images/Kruger.png",
+      "description": "Kruger National Park is one of Africa's largest game reserves. It is home to a high density of wild animals including the Big Five: lions, leopards, rhinos, elephants, and buffalo.",
+      "comments": []
+    },
+    {
+      "id": "14",
+      "name": "Fish River Canyon",
+      "location": "Namibia",
+      "image": "https://media.cnn.com/api/v1/images/stellar/prod/180508142114-15-amazing-places-africa-fish-river-canyon.jpg?q=w_1110,c_fill/f_webp",
+      "description": "Namibia is the travel gift that keeps on giving. Some 500 meters (1,640 feet) deep and more than 160 kilometers (100 miles) long, this great rift is second only to the United States’ Grand Canyon in size, and during the dry season is characterized by beautiful turquoise pools of seasonally flowing water stretching into the distance.",
+      "comments": []
+    },
+    {
+      "id": "15",
+      "name": "Rwanda",
+      "location": "Rwanda",
+      "image": "./images/Rwanda.png",
+      "description": "Rwanda, known as the Land of a Thousand Hills, offers stunning landscapes and a chance to see mountain gorillas in Volcanoes National Park. Lake Kivu provides opportunities for water activities.",
+      "comments": []
+    },
+    {
+      "id": "16",
+      "name": "São Tomé e Principe",
+      "location": "São Tomé e Principe",
+      "image": "./images/SaoTome.png",
+      "description": "São Tomé e Principe is a small island nation in the Gulf of Guinea. It offers pristine beaches, excellent diving spots, and lush jungles perfect for hiking and exploring.",
+      "comments": []
+    },
+    {
+      "id": "17",
+      "name": "Luxor",
+      "location": "Egypt",
+      "image": "./images/Luxor.png",
+      "description": "Luxor is home to some of Egypt's most famous temples and monuments, including the Karnak Temple and Luxor Temple. It also features the Valley of the Kings, where pharaohs like Tutankhamun were buried.",
+      "comments": []
+    },
+    {
+      "id": "18",
+      "name": "Algiers",
+      "location": "Algeria",
+      "image": "./images/Algiers.png",
+      "description": "The capital city of Algeria, Algiers, is known for its Ottoman palaces, colonial architecture, and the Kasbah, a UNESCO World Heritage site.",
+      "comments": []
+    },
+    {
+      "id": "19",
+      "name": "Fez",
+      "location": "Morocco",
+      "image": "./images/Fez.png",
+      "description": "Fez is a historic city in Morocco known for its medieval medina, ancient tanneries, and the University of Al Quaraouiyine, the oldest continuously operating university in the world.",
+      "comments": []
+    },
+    {
+      "id": "20",
+      "name": "Tunis",
+      "location": "Tunisia",
+      "image": "./images/Tunis.png",
+      "description": "Tunis, the capital of Tunisia, features the ancient medina, the Bardo Museum with its rich collection of Roman mosaics, and the ruins of Carthage.",
+      "comments": []
+    },
+    {
+      "id": "21",
+      "name": "Atlas Mountains",
+      "location": "Morocco",
+      "image": "./images/AtlasMountains.png",
+      "description": "The Atlas Mountains offer stunning landscapes, traditional Berber villages, and opportunities for trekking and exploring nature.",
+      "comments": []
+    },
+    {
+      "id": "22",
+      "name": "Alexandria",
+      "location": "Egypt",
+      "image": "./images/Alexandria.png",
+      "description": "Alexandria, founded by Alexander the Great, is known for its rich history, including landmarks like the ancient Roman theater, Pompey's Pillar, and the modern Bibliotheca Alexandrina.",
+      "comments": []
     }
   ]
 }
